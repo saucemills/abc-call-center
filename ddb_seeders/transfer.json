@@ -6,31 +6,31 @@
         "transferPoint": "arn:aws:connect:us-west-2:058264086287:instance/ab726981-c854-43ad-8b06-bd7e651f7fe3/queue/19a8427d-b3ed-4217-acb0-78ff52d89bb2",
         "timeZone": "US/Eastern",
         "hours": {
-            "sunday": {
+            "Sunday": {
                 "start": "00:00:00",
                 "end": "23:59:59"
             },
-            "monday": {
+            "Monday": {
                 "start": "00:00:00",
                 "end": "23:59:59"
             },
-            "tuseday": {
+            "Tuesday": {
                 "start": "00:00:00",
                 "end": "23:59:59"
             },
-            "wednesday": {
+            "Wednesday": {
                 "start": "00:00:00",
                 "end": "23:59:59"
             },
-            "thursday": {
+            "Thursday": {
                 "start": "00:00:00",
                 "end": "23:59:59"
             },
-            "friday": {
+            "Friday": {
                 "start": "00:00:00",
                 "end": "23:59:59"
             },
-            "saturday": {
+            "Saturday": {
                 "start": "00:00:00",
                 "end": "23:59:59"
             }
@@ -43,31 +43,31 @@
         "transferPoint": "arn:aws:connect:us-west-2:058264086287:instance/ab726981-c854-43ad-8b06-bd7e651f7fe3/queue/1797e3c8-3887-4968-8ab4-e406384f4387",
         "timeZone": "US/Eastern",
         "hours": {
-            "sunday": {
+            "Sunday": {
                 "start": "00:00:00",
                 "end": "00:00:00"
             },
-            "monday": {
+            "Monday": {
                 "start": "00:00:00",
                 "end": "00:00:00"
             },
-            "tuseday": {
+            "Tuesday": {
                 "start": "00:00:00",
                 "end": "00:00:00"
             },
-            "wednesday": {
+            "Wednesday": {
                 "start": "00:00:00",
                 "end": "00:00:00"
             },
-            "thursday": {
+            "Thursday": {
                 "start": "00:00:00",
                 "end": "00:00:00"
             },
-            "friday": {
+            "Friday": {
                 "start": "00:00:00",
                 "end": "00:00:00"
             },
-            "saturday": {
+            "Saturday": {
                 "start": "00:00:00",
                 "end": "00:00:00"
             }
