@@ -1,0 +1,10 @@
+[
+    {
+        "businessLine": "sales",
+        "mainMenuPrompt": "Thank you for calling the sales menu. Press 1 for an open queue. Press 2 for a queue on holiday. Press 3 for the self-service menu.",
+        "openQueueTransfer": "Now transferring you to the open queue.",
+        "holidayQueueTransfer": "Now transferring you to the holiday queue.",
+        "selfServiceTransfer": "Now transferring you to the self service menu.",
+        "errorPrompt": "Something went wrong."
+    }
+]

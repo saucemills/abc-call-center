@@ -1,0 +1,76 @@
+[
+    {
+        "callerIntent": "OpenQueueIntent",
+        "transferType": "queue",
+        "transferpointName": "Open_Queue",
+        "transferPoint": "arn:aws:connect:us-west-2:058264086287:instance/ab726981-c854-43ad-8b06-bd7e651f7fe3/queue/19a8427d-b3ed-4217-acb0-78ff52d89bb2",
+        "timeZone": "US/Eastern",
+        "hours": {
+            "sunday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "monday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "tuseday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "wednesday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "thursday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "friday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "saturday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            }
+        }
+    },
+    {
+        "callerIntent": "HolidayQueueIntent",
+        "transferType": "queue",
+        "transferpointName": "Holiday_Queue",
+        "transferPoint": "arn:aws:connect:us-west-2:058264086287:instance/ab726981-c854-43ad-8b06-bd7e651f7fe3/queue/1797e3c8-3887-4968-8ab4-e406384f4387",
+        "timeZone": "US/Eastern",
+        "hours": {
+            "sunday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "monday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "tuseday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "wednesday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "thursday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "friday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "saturday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            }
+        }
+    }
+]

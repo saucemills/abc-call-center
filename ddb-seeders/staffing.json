@@ -1,0 +1,70 @@
+[
+    {
+        "queueName": "Holiday_Queue",
+        "timeZone": "US/Eastern",
+        "hours": {
+            "sunday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "monday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "tuseday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "wednesday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "thursday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "friday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            },
+            "saturday": {
+                "start": "00:00:00",
+                "end": "00:00:00"
+            }
+        }
+    },
+    {
+        "queueName": "Open_Queue",
+        "timeZone": "US/Eastern",
+        "hours": {
+            "sunday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "monday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "tuseday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "wednesday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "thursday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "friday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            },
+            "saturday": {
+                "start": "00:00:00",
+                "end": "23:59:59"
+            }
+        }
+    }
+]
