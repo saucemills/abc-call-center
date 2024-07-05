@@ -2,6 +2,16 @@
     {
         "node": "+18449955666",
         "dnis": "+18449955666",
-        "businessLine": "sales"
+        "businessLine": "sales",
+        "nextCallFlow": "ABC-MainMenu",
+        "nextCallFlowArn": "arn:aws:connect:us-west-2:058264086287:instance/ab726981-c854-43ad-8b06-bd7e651f7fe3/contact-flow/3c870f6c-403a-4111-b808-bef44e3648c4"
+    },
+    {
+        "node": "+18555776392",
+        "dnis": "+18555776392",
+        "businessLine": "sales",
+        "callerIntent": "OpenQueueIntent",
+        "nextCallFlow": "CnTransfer",
+        "nextCallFlowArn": "arn:aws:connect:us-west-2:058264086287:instance/ab726981-c854-43ad-8b06-bd7e651f7fe3/contact-flow/b8522379-d0c6-42c0-937e-91e21e22897b"
     }
 ]
