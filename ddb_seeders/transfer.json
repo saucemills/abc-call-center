@@ -6,34 +6,13 @@
         "transferPoint": "arn:aws:connect:us-west-2:058264086287:instance/ab726981-c854-43ad-8b06-bd7e651f7fe3/queue/19a8427d-b3ed-4217-acb0-78ff52d89bb2",
         "timeZone": "US/Eastern",
         "hours": {
-            "Sunday": {
-                "start": "00:00:00",
-                "end": "23:59:59"
-            },
-            "Monday": {
-                "start": "00:00:00",
-                "end": "23:59:59"
-            },
-            "Tuesday": {
-                "start": "00:00:00",
-                "end": "23:59:59"
-            },
-            "Wednesday": {
-                "start": "00:00:00",
-                "end": "23:59:59"
-            },
-            "Thursday": {
-                "start": "00:00:00",
-                "end": "23:59:59"
-            },
-            "Friday": {
-                "start": "00:00:00",
-                "end": "23:59:59"
-            },
-            "Saturday": {
-                "start": "00:00:00",
-                "end": "23:59:59"
-            }
+            "Sunday": {"start": "00:00:00","end": "23:59:59"},
+            "Monday": {"start": "00:00:00","end": "23:59:59"},
+            "Tuesday": {"start": "00:00:00","end": "23:59:59"},
+            "Wednesday": {"start": "00:00:00","end": "23:59:59"},
+            "Thursday": {"start": "00:00:00","end": "23:59:59"},
+            "Friday": {"start": "00:00:00","end": "23:59:59"},
+            "Saturday": {"start": "00:00:00","end": "23:59:59"}
         }
     },
     {
