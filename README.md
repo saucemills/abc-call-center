@@ -8,7 +8,7 @@ This is a sample ABC Call Center built for this project. The idea behind it was 
 
 The call center consists of three flows:
 
-- **[ABC-Landing](https://github.com/saucemills/abc-call-center/blob/main/contact_flows/ABC-Landing.png)**
+- [ABC-Landing](https://github.com/saucemills/abc-call-center/blob/main/contact_flows/ABC-Landing.png)
 - **ABC-MainMenu**
 - **ABC-Transfer**
 
