@@ -82,6 +82,7 @@ There are a few things I have implemented around the flows, Lambdas, and AWS con
 1. **Journey Attribute**: At the beginning of each call flow and at important inflection points inside each call flow, I have added a ‘journey’ attribute in different set contact attribute blocks which logs where the call goes. This makes it easier in the contact search records to see where a call went or where it possibly failed straight from the Amazon Connect console without having to use CloudWatch.
 
 2. **CloudWatch Queries**: For occasions when you might need more information, such as what a Lambda returned or exact values extracted in an Amazon Connect call flow, I have set up my own Amazon Connect CloudWatch query so that anyone with appropriate access to the AWS environment can search easily in CloudWatch for a call and get detailed information on it, only needing the contact ID for the call.
+   ![Cloudwatch Query](https://github.com/saucemills/abc-call-center/blob/main/cloudwatch_query.png)
 
 3. **Lambda Logging**: Each Lambda has been set up with logging at important points to be able to see in its CloudWatch logs more detailed information on what happened or possibly anything that went wrong.
 
