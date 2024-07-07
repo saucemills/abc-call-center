@@ -91,4 +91,4 @@ There are a few things I have implemented around the flows, Lambdas, and AWS con
 With more time, I had a lot of ideas for things I could have implemented:
 
 - Unit tests for the Lambdas to ensure changes do not break functionality.
-- More dynamism inside the MainMenu Lex bot, including functionality to separately handle DTMF inputs so that different business lines could use the same Lambda and have different DTMF inputs and intents despite using the same menu.
+- More dynamism inside the MainMenu Lex bot, including functionality to separately handle DTMF inputs so that different business lines could use the same lex bot and have different DTMF inputs and intents despite using the same menu.
