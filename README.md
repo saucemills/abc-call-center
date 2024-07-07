@@ -14,7 +14,7 @@ The call center consists of three flows:
 
 ### ABC-Landing
 
-All calls start at ABC-Landing. In this call flow, the dialed number (DNIS) is input into a Lambda that checks a DynamoDB log of all the phone numbers for the call center. It returns relevant information concerning the DNIS back to the call flow, such as `businessLine` and `nextCallFlow`.
+All calls start at ABC-Landing. In this call flow, the dialed number (DNIS) is input into a [Lambda](https://github.com/saucemills/abc-call-center/blob/main/lambdas/dnis-config/lambda_function.py) that checks a DynamoDB log of all the phone numbers for the call center. It returns relevant information concerning the DNIS back to the call flow, such as `businessLine` and `nextCallFlow`.
 
 This allows the client to direct calls based on the number dialed. For example, a number can go straight to a queue or send the caller to the main menu to handle the caller's needs more specifically.
 
@@ -30,7 +30,7 @@ This allows the client to direct calls based on the number dialed. For example, 
 }
 ```
 
-Then, in ABC-MainMenu, the business line set in the DNIS-config Lambda will be input into a prompt Lambda. The prompt Lambda will return all the relevant prompts that may be used in this call flow. This is also done to maintain dynamism throughout the flow and allow different business lines to use the same call flow and have their own specific prompts based on what they want said to the caller.
+Then, in ABC-MainMenu, the business line set in the DNIS-config will be input into the [prompt Lambda](https://github.com/saucemills/abc-call-center/blob/main/lambdas/prompt/lambda_function.py) which will look in a DynamoDB table for the prompts assigned to the business line. This is also done to maintain dynamism throughout the flow and allow different business lines to use the same call flow and have their own specific prompts based on what they want said to the caller.
 
 #### Example Prompt Item:
 
@@ -48,7 +48,7 @@ The flow then goes to a get user input menu where it will use the `mainMenuPromp
 
 ### ABC-Transfer
 
-In ABC-Transfer, the call flow will send the `callerIntent` to the transfer Lambda. The Lambda will then do a couple of things. First, it will get the intent and look at the transfer type and information from a DynamoDB transfer item. If it is a queue, it will check the queue’s hours from the transfer item against the current day and time and return a queue status. If the queue status is open, the flow will then set the queue and transfer the caller to the queue. If it is closed, it will play a closed message and end the call.
+In ABC-Transfer, the call flow will send the `callerIntent` to the [transfer Lambda](https://github.com/saucemills/abc-call-center/blob/main/lambdas/transfer/lambda_function.py). The Lambda will then do a couple of things. First, it will get the intent and look at the transfer type and information from a DynamoDB transfer item. If it is a queue, it will check the queue’s hours from the transfer item against the current day and time and return a queue status. If the queue status is open, the flow will then set the queue and transfer the caller to the queue. If it is closed, it will play a closed message and end the call.
 
 #### Example Transfer Item:
 
